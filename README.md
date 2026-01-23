@@ -1,34 +1,97 @@
-# Donation-Tracking
+# 🤝 C Donation Management System
 
-# 1) Aim of the project
+This project is a **C-based donation management system** developed as part of early university coursework to practice **struct usage, dynamic memory allocation, and file handling** in C programming.
 
-Donation Management System is a program that offers users various donation options and manages these donations. The main purpose of the project is to allow users to donate in certain categories (food, clothing, money and other) and to track these donations according to 
-categories. Displays total hidden and open donations with open donation and secret donation functions. 
+The system allows users to make donations in different categories and keeps track of both **public and anonymous donations**.
 
-# 2) Program Structs and Relationships
+---
 
-2.1)The main purpose of use of “Person” struct :
-   
-- This structure contains basic information of donating users. Keeps the user's name, surname, e-mail address, password and ID
-  
-2.2)The main purpose of use of Donation struct : 
+## 🎯 Project Objective
 
-- This structure contains donation information. Checks whether donations are anonymous
-  
-2.3)The main purpose of donationSystem struct : 
+The main objective of this project is to design a console-based system that enables users to:
 
-- This structure represents the donation system and maintains a dynamically allocated array to store donations
-  
-# 3) Rules :
-  
-3.1) Users can register to the system with their name, surname, e-mail and password information. 
+- Register in the system
+- Donate in different categories
+- Choose between public or anonymous donations
+- Track total donation amounts by category and visibility
 
-3.2) Users can donate food, clothing, money or other categories. Before donating, the category to donate must be selected. 
+---
 
-3.3) Users can choose to make their donations anonymous or public. Anonymous donations ensure that the identity of the donor is kept private. 
+## 🧩 Project Scenario
 
-3.4) When monetary donation is selected, the country to donate to must be selected. The donation amount must be converted into the currency of the country to be donated. 
+The application simulates a simple donation platform:
 
-3.5) Users can view total open and anonymous donation amounts. 
+- Users register with personal information.
+- Users select a donation category such as food, clothing, money, or other.
+- Donations can be made either **publicly** or **anonymously**.
+- Monetary donations require selecting a country, and the amount is converted to the target country's currency.
+- The system displays total public and anonymous donation amounts.
 
-3.6) Users can only select available donation categories. In case of an invalid category selection, an error message should be displayed.
+---
+
+## 🧱 System Design
+
+The project is implemented using multiple **structs**, each responsible for a specific role:
+
+### 🔹 Person
+- Stores user information such as name, surname, email, password, and ID.
+
+### 🔹 Donation
+- Stores donation details
+- Tracks donation category and anonymity status
+
+### 🔹 DonationSystem
+- Manages a dynamically allocated array of donations
+- Handles donation storage and tracking logic
+
+---
+
+## 📌 Features
+
+- User registration system
+- Donation in multiple categories (food, clothing, money, others)
+- Public and anonymous donation options
+- Currency conversion for monetary donations
+- Tracking total donation amounts
+- File-based data storage
+
+---
+
+## 🛠 Technologies Used
+
+- C
+- Structs
+- Dynamic memory allocation
+- File handling
+- Console-based application
+
+---
+
+## 📂 Project Structure
+
+The project includes:
+
+- Struct definitions (`Person`, `Donation`, `DonationSystem`)
+- Donation and user management logic
+- File storage for users and donations
+- Test and main execution files
+
+The code is separated into `.c` and `.h` files to maintain clarity and modularity.
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project, I gained experience in:
+
+- Designing structured programs in C
+- Working with structs and pointers
+- Managing dynamic memory
+- Implementing file-based data storage
+- Building rule-based console applications
+
+---
+
+## 📚 Notes
+
+This project represents my **early programming experience** and is preserved to demonstrate my foundational knowledge of C programming and software design principles.
