@@ -1,4 +1,4 @@
-# 🤝 C Donation Management System
+#  C Donation Management System
 
 This project is a **C-based donation management system** developed as part of early university coursework to practice **struct usage, dynamic memory allocation, and file handling** in C programming.
 
@@ -6,7 +6,7 @@ The system allows users to make donations in different categories and keeps trac
 
 ---
 
-## 🎯 Project Objective
+##  Project Objective
 
 The main objective of this project is to design a console-based system that enables users to:
 
@@ -17,7 +17,7 @@ The main objective of this project is to design a console-based system that enab
 
 ---
 
-## 🧩 Project Scenario
+##  Project Scenario
 
 The application simulates a simple donation platform:
 
@@ -29,7 +29,7 @@ The application simulates a simple donation platform:
 
 ---
 
-## 🧱 System Design
+##  System Design
 
 The project is implemented using multiple **structs**, each responsible for a specific role:
 
@@ -46,7 +46,7 @@ The project is implemented using multiple **structs**, each responsible for a sp
 
 ---
 
-## 📌 Features
+##  Features
 
 - User registration system
 - Donation in multiple categories (food, clothing, money, others)
@@ -57,7 +57,7 @@ The project is implemented using multiple **structs**, each responsible for a sp
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - C
 - Structs
@@ -67,7 +67,7 @@ The project is implemented using multiple **structs**, each responsible for a sp
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 The project includes:
 
@@ -80,7 +80,7 @@ The code is separated into `.c` and `.h` files to maintain clarity and modularit
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 Through this project, I gained experience in:
 
